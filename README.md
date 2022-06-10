@@ -3,60 +3,70 @@
 </h1>
 
 <h1 align="center">
-HISTÓRICO DE REQUISITOS
+HEADER EM HTML/CSS (MODELO DE README)
 </h1>
 
-#  Indice 
+**Projeto:** Entrega do trainee <!-- projeto em que projeto o requisito foi implementado)-->
 
-- [Sobre](#-sobre)
-- [Como encontrar um requisito](#-como-encontrar-um-requisito)
-- [Como baixar um requisito](#-como-baixar-um-requisito)
-- [Como adicionar um requisito](#-como-adicionar-um-requisito)
-- [Dúvidas](#-dúvidas)
+**Desenvolvedor(es):** Gustavo Gimenez e Guilherme Salles <!--densenvolvedor(es) que implementataram o requisito-->
+
+**Data:** 31/08/2021 <!--data do registro da implementação-->
 
 ---
 
-## ❓ Sobre
-Bem vindos ao repositório de históricos de requisitos da byron 🥳
-
-Aqui ficarão registrados todos os requisitos diferentes que foram implementados pelos desenvolvedores da byron durante a execução dos projetos, como aquele carousel mais difícil de colocar no site ou aquele login com redes sociais com tutorial só em hebraico.
-
-Logo abaixo você encontrará explicações de como encontrar um requisito que está procurando, baixar esse requisito ou adicionar um requisito que você queira aqui no repositório.
-
-Aproveitem e usem sem moderação 😁
-
+# Indice
+- [Descrição](#-descrição)
+- [Implementação](#-implementação)
+- [Documentação](#-documentacao)
+- [Contato para dúvidas](#-contato-para-dúvidas)
 
 ---
 
-## 🔎 Como encontrar um requisito
+## 🖊️ **Descrição** 
 
-Para encontrar um requisito é muito simples, logo na página inicial você encontrará pastas com as tecnologias da utilizadas na byron:
+**Ferramentas utilizadas:** HTML, CSS e Bootstrap <!--tecnologias utilizadas na implementação do requisito-->
 
-<img src="Exemplo/header-F1-feeder-series/img/pastas.png">
+**Dificuldade de implementação:** 6/10 <!--dificuldade de 0 a 10, sendo 0 extramamente fácil e 10 extramamente difícil-->
 
-Identifique a tecnologia referente ao requisito que deseja e lá teremos as pastas dos requisitos já registrados, a imagem a seguir mostra o requisito registrado na página de exemplo
+**Tempo para implementação:** 5 horas <!--tempo gasto para implementação do requisito-->
 
-<img src="Exemplo/header-F1-feeder-series/img/requisito.png">
+**Preço cobrado:** R$100,00 <!--preço cobrado do cliente pelo requisito-->
 
-Ao entrar na pasta da tecnologia, procure pelo requisito desejado, ao encontrar você pode entrar na pasta do mesmo e realizar o download 😀
+<!--Aqui você colocará um texto descrevendo o requisito e uma imagem do mesmo-->
+O header se trata do cabeçalho feito para o site F1 Feeder Series, projeto para a entrega final do trainee, consiste em uma imagem na esquerda que leva a home e um menu na direita com botões que encaminham para as outras páginas do site, como pode ser visto na imagem a seguir:
 
-Caso o requisito não esteja lá ele ainda não foi registrado e infelizmente você terá de procurar em outro lugar pela internet, mas depois de implementar não se esqueça de voltar aqui para registra-lo  💙
-
----
-
-## 📁 Como baixar um requisito
-
-
+<img src="img/header.png">
 
 ---
 
-## 📦 Como adicionar um requisito
+## 👨‍💻 **Implementação**
 
+<!--Nessa seção, será descrita o passo a passo da implementação do requisito, você deve escrever todos os passos que julga necessário para que alguém consigo realizar a implementação consultando este documento-->
 
+**Passo 1:** Para a implementação do header, iniciamos colocando a tag header no html e uma classe
+
+**Passo 2:** Depois utilizamos a classe definida no passo 1 para definir seu tamanho no CSS
+
+**Passo 3:** ...
 
 ---
 
-## 🤔 Dúvidas
-Qualquer dúvida contate um membro de DPJ :D
+## 📄 **Documentação**
+
+<!--Aqui ficará toda documentação utilizada para implementação do requisito, seja vídeo, texto, artigo, etc.-->
+
+- HTML: https://www.w3schools.com/tags/tag_header.asp
+
+- Bootstrap: https://getbootstrap.com/docs/4.1/components/navbar/
+
+- Curso Origamid: https://www.origamid.com/curso/web-design-completo/
+
+- Curso Bootstrap: https://www.youtube.com/watch?v=SmQMZ36hJJY&list=PLnDvRpP8Bnexu5wvxogy6N49_S5Xk8Cze
 
 ---
+
+## 📞 **Contato para dúvidas**
+
+**Telefone:** (99) 999999999 <!--Telefone do dev responsável pela implementação-->
+
+**Email:** gimenez.dogbelga@gmail.com <!--Email do dev resposável pela implementação-->
