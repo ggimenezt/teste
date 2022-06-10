@@ -59,6 +59,8 @@ Exitem 2 formas simples de baixarmos os requisitos, pela inteface do GitHub e pe
 
 1.2. Clique no botão de code, o botão abrirá um menu no qual disponibilizará o downloand para você, como indicado nas imagens abaixo:
 <img src="assets/3.png">
+
+
 <img src="assets/4.png">
 
 **2. Pelo Terminal:**
