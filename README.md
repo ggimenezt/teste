@@ -30,15 +30,20 @@ Aproveitem e usem sem moderação 😁
 
 ## 🔎 Como encontrar um requisito
 
-Para encontrar um requisito é muito simples, logo na página inicial você encontrará pastas com as tecnologias da utilizadas na byron:
+Para encontrar um requisito é muito simples, cada um está em uma branch especifica do nosso repositório, e logo na página inicial você encontrará o seguinte botão para acessar a lista de branchs:
 
-<img src="Exemplo/header-F1-feeder-series/img/pastas.png">
+<img src="assets/1.png">
 
-Identifique a tecnologia referente ao requisito que deseja e lá teremos as pastas dos requisitos já registrados, a imagem a seguir mostra o requisito registrado na página de exemplo
+O botão te encaminhara para a seguinte página:
 
-<img src="Exemplo/header-F1-feeder-series/img/requisito.png">
+<img src="assets/2.png">
 
-Ao entrar na pasta da tecnologia, procure pelo requisito desejado, ao encontrar você pode entrar na pasta do mesmo e realizar o download 😀
+Você verá que as branchs estão nomeadas de formas especificas:
+**"tecnologia-nome_do_requisito"**
+
+Portanto basta procurar pelo nome da tecnologia do requisito que está buscando e depois pelo nome do mesmo
+
+Quando encontrar, clique no nome do mesmo para acessar a branch e realizar o download 😀
 
 Caso o requisito não esteja lá ele ainda não foi registrado e infelizmente você terá de procurar em outro lugar pela internet, mas depois de implementar não se esqueça de voltar aqui para registra-lo  💙
 
@@ -46,8 +51,25 @@ Caso o requisito não esteja lá ele ainda não foi registrado e infelizmente vo
 
 ## 📁 Como baixar um requisito
 
+Exitem 2 formas simples de baixarmos os requisitos, pela inteface do GitHub e pelo terminal, vamos aprender as duas aqui :D
 
+**1. Pela Interface do GitHub:**
 
+    1.1. O primeiro passo é encontrar o requisito que deseja, caso precise de ajuda, temos um tópico logo acima explicando como encontrar requisitos.
+    1.2. Clique no botão de code, o botão abrirá um menu no qual disponibilizará o downloand para você, como indicado nas imagens abaixo:
+<img src="assets/3.png">
+<img src="assets/4.png">
+
+**2. Pelo Terminal:**
+
+    2.1. Acesse a pasta do seu computador na qual deseja que o requisito seja baixado
+    2.2. Utilize o comando git clone para clonar a branch para seu repositório.
+
+```
+cd <path da pasta no qual deseja deseja baixar o requisito>
+
+git clone -b <nome-da-branch> <url-do-repositório-de-requisitos> 
+```
 ---
 
 ## 📦 Como adicionar um requisito
