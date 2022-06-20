@@ -70,15 +70,43 @@ Exitem 2 formas simples de baixarmos os requisitos, pela inteface do GitHub e pe
 2.2. Utilize o comando git clone para clonar a branch para seu repositório.
 
 ```
-cd <path da pasta no qual deseja deseja baixar o requisito>
+$ cd <path da pasta no qual deseja deseja baixar o requisito>
 
-git clone -b <nome-da-branch> <url-do-repositório-de-requisitos> 
+$ git clone -b <nome-da-branch> <url-do-repositório-de-requisitos> 
 ```
 ---
 
 ## 📦 Como adicionar um requisito
 
+1. Faça um fork do repositório de requisitos para o seu GitHub.
 
+<img src="assets/fork.png">
+
+2. Utilize o comando git clone para clonar o fork que você realizou para sua máquina.
+
+```
+$ cd <path da pasta no qual deseja criar o clone do repositório>
+
+$ git clone <url-do-seu-fork> 
+```
+
+3. Adicione o requisito no repositório local e de o push para o repositório remoto que você gerou com o fork.
+
+```
+$ git add .
+
+$ git commit -m "mensagem"
+
+$ git push origin main/master
+```
+
+4. Peça para um dos responsáveis pela administração do repositório criar a branch do seu requisito.
+
+5. Faça o pull request para o repositório selecionando a branch criada para o seu requisito.
+
+Imagens do pull request.
+
+6. Agora é com nós de DPJ, analisaremos e aceitaremos seu requisito no repositório 😀
 
 ---
 
